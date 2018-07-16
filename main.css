@@ -1,0 +1,73 @@
+html {
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+#header {
+  display: flex;
+  background-color: #2d5f7c;
+  height: auto;
+  align-items: center;
+}
+#header img {
+  margin-left: 10%;
+}
+.fa-search {
+  color: #ae0015;
+  font-size: 30px;
+}
+#header .search-bar-submit {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #b1b9bf;
+}
+#header input {
+  width: 70%;
+  height: 45px;
+}
+#header h1 {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  padding-right: 30px;
+  color: #fff;
+}
+
+#card {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-around;
+  background-color: white;
+  padding: 50px;
+}
+#Word h1 {
+  display: grid;
+  margin-left: 8%;
+}
+#Word p {
+  display: grid;
+  margin-left: 9%;
+  margin-bottom: -5px;
+}
+#Word p:nth-child(2) {
+  display: grid;
+  margin-left: 9%;
+  margin-bottom: -10px;
+}
+#Word ol {
+  margin-left: 50px;
+}
+#img img {
+  display: grid;
+  width: 150px;
+  height: 200px;
+  border: 2px solid black;
+  margin-bottom: -8px;
+}
+#img p {
+  font-size: 12px;
+}
