@@ -11,9 +11,11 @@ body {
   align-items: center;
 }
 #header img {
+  display: flex;
   margin-left: 10%;
 }
 .fa-search {
+  display: flex;
   color: #ae0015;
   font-size: 30px;
 }
@@ -24,6 +26,7 @@ body {
   border: 1px solid #b1b9bf;
 }
 #header input {
+  display: flex;
   width: 70%;
   height: 45px;
 }
